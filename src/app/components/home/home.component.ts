@@ -7,13 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent {
-  meuBooleano = false;
-  name = 'teste';
-
-  constructor() {}
-
-  atualizaBoleano(valor: boolean) {
-    this.meuBooleano = valor;
-  }
-}
+export class HomeComponent {}
